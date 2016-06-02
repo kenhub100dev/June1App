@@ -17,6 +17,9 @@ public class Person {
     private Integer age;
 
     public Person() {
+        this.id = 0;
+        this.name = "na";
+        this.age = 0;
     }
 
     public Person(Integer id, String name, Integer age) {
