@@ -9,7 +9,7 @@ package com.obj;
  *
  * @author kenta_000
  */
-public class TestApp {;
+public class TestApp {
     
     public static void main(String [] args){
         System.out.println("hey there");
@@ -17,6 +17,7 @@ public class TestApp {;
         System.out.println("It's important to know");
         Person person = new Person(99,"Jill_davis",100);
         System.out.println(person);
+        System.out.println(person.getName());
     }
     
 }
